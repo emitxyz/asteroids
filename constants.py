@@ -13,3 +13,15 @@ PLAYER_SHOOT_SPEED = 500
 PLAYER_SHOOT_COOLDOWN = 0.3
 
 SHOT_RADIUS = 5
+
+# Powerup Constants
+POWERUP_RADIUS = 15
+POWERUP_COLOR = "green"
+POWERUP_SPAWN_RATE = 10.0  # seconds between powerup spawns
+POWERUP_SPEED = 100  # Pixels per second
+
+# Powerup Effect Constants
+SHOT_COOLDOWN_POWERUP = 0.05
+SHOT_RADIUS_POWERUP = SHOT_RADIUS * 2
+SHOT_COLOR_POWERUP = "yellow"
+POWERUP_DURATION = 8.0  # seconds
